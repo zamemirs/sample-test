@@ -58,5 +58,5 @@ jobs:
         with:
           app-name: 'invescosampletest'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_BB128EA3F0C043E48D63362D962F9D8C }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D76822AF23394F63B4C96A4D8566C4A1 }}
           package: .
