@@ -1,7 +1,6 @@
 import React from "react";
 import {
   BrowserRouter,
-  BrowserRouter as Router,
   Route,
   Routes
 } from "react-router-dom";
@@ -14,9 +13,9 @@ export default function Navbar() {
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
-            <img src="https://www.robosoftin.com/assets/image/common/Robosoft_main-logo_horizontal.svg" />
-          </a>
+          
+            <img src="https://www.robosoftin.com/assets/image/common/Robosoft_main-logo_horizontal.svg" alt='home' />
+          
         </div>
       </nav>
       <BrowserRouter>

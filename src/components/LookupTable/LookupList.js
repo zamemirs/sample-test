@@ -67,12 +67,7 @@ export default function LookupList() {
           console.error("Error updating data:", error);
         });
     } else {
-      const newKeyword = keywords[keywords.length - 1];
-      const newData = {
-        key: newKeyword.key,
-        value: newKeyword.value,
-      };
-
+     
       fetch(API, {
         method: "POST",
         headers: {
