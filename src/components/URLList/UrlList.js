@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 
-const API = "http://127.0.0.1:8000/api/urls/";
+const API = "http://127.0.0.1:8000/api/webscraping/urls/";
 
 const InputComponent = () => {
   const [sections, setSections] = useState([
