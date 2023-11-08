@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 
 //const LOOKUP_API = "http://56e3-210-212-195-98.ngrok-free.app/api/lookup-keyword/";
  
- const LOOKUP_API = 'http://127.0.0.1:8000/api/lookup-keyword/'
+ const LOOKUP_API = 'http://127.0.0.1:8000/api/webscraping/lookup-keyword/'
 
 export default function LookUp() {
   const [lookupList, setLookUpList] = useState([]);  

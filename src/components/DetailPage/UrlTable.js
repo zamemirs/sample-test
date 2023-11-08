@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 
 //const URL_API = "http://56e3-210-212-195-98.ngrok-free.app/api/urls/";
 
- const URL_API = 'http://127.0.0.1:8000/api/urls/'
+ const URL_API = 'http://127.0.0.1:8000/api/webscraping/urls/'
 
 export default function UrlTable() {
   const [urlList, setUrlList] = useState([]);

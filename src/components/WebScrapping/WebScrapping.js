@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const API = "http://127.0.0.1:8000/api/webscraping/"; 
+const API = "http://127.0.0.1:8000/api/webscraping/webscraping/"; 
 
 export default function WebScrapping() {
   const [loading, setLoading] = useState(false);
